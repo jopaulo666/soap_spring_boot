@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GetCustomerDetailResponse 
+		xmlns="http://jopaulo.com.br"
+		xsi:schemaLocation="http://jopaulo.com.br customer-information.xsd"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+	<CustomerDetail>
+		<id>123</id>
+		<name>João Paulo da Mata Mendes</name>
+		<phone>(91) 98146-4025</phone>
+		<email>jp_cbc@hotmail.com</email>
+	</CustomerDetail>
+</GetCustomerDetailResponse>
+
+<!-- valida o XML com XSD -> são definições de esquemas XML,  -->
+<!-- são usadas para descrever o formato padrão do arquivo xml deve seguir -->
